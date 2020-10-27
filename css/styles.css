@@ -446,6 +446,7 @@ mark,
 
 .list-inline-item {
   display: inline-block;
+  cursor: pointer;
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -10134,4 +10135,17 @@ section.resume-section .resume-section-content {
     padding: 15px;
     color: white;
     background: #269688;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: none;
+}
+::-webkit-scrollbar-thumb {
+  background:darkgray ; 
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: gray; 
 }

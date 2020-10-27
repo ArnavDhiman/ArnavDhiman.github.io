@@ -1,5 +1,7 @@
 (function ($) {
   "use strict";
+  $('[data-toggle="tooltip"]').tooltip();
+
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
     if (
       location.pathname.replace(/^\//, "") ==
